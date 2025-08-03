@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+.custom-container {
+    padding-inline: .5rem;
+    width: 100%;
+    @media (width >= 1280px) {
+        max-width: 1280px;
+    }
+    @media (width >= 40rem /* 640px */) {
+        max-width: 40rem /* 640px */;
+    }
+    @media (width >= 64rem /* 1024px */) {
+        max-width: 64rem /* 1024px */;
+    }
+    @media (width >= 80rem /* 1280px */) {
+        max-width: 80rem /* 1280px */;
+    }
+}
+
+.active{
+    @apply text-black/50 dark:text-white/50
+}
