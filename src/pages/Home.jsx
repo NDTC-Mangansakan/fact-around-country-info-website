@@ -13,7 +13,7 @@ const Home = () => {
         </p>
         <div className="mt-10 text-center">
           <button className="px-5 py-3 font-semibold bg-black text-white rounded dark:bg-white dark:text-black ">
-            <Link to='/countries' className='flex items-center gap-x-3'>
+            <Link to='/prac' className='flex items-center gap-x-3'>
               Explore Countries Now <RiArrowRightLongFill />
             </Link>
           </button>

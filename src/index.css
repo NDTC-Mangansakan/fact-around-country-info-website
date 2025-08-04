@@ -23,3 +23,37 @@
 .active{
     @apply text-black/50 dark:text-white/50
 }
+
+
+.rounded-inverted-tr {
+      clip-path: path('M0,0 H100% V0 Q85%,15% 100%,0 V100% H0 Z');
+    }
+
+    .rounded-inverted-tl {
+      clip-path: path('M0,0 Q15%,15% 0,0 V100% H100% V0 Z');
+    }
+
+    .rounded-inverted-br {
+      clip-path: path('M0,0 H100% V100% Q85%,85% 100%,100% H0 Z');
+    }
+
+    .rounded-inverted-bl {
+      clip-path: path('M0,0 H100% V100% H0 Q15%,85% 0,100% Z');
+    }
+
+    /* Full custom paths per image */
+    .img-1 {
+      clip-path: path('M0,0 H100% Q85%,15% 100%,0 V100% Q85%,85% 100%,100% H0 Z');
+    }
+
+    .img-2 {
+      clip-path: path('M0,0 Q15%,15% 0,0 V100% Q15%,85% 0,100% H100% Z');
+    }
+
+    .img-3 {
+      clip-path: path('M0,0 H100% Q85%,15% 100%,0 V100% Q85%,85% 100%,100% H0 Z');
+    }
+
+    .img-4 {
+      clip-path: path('M0,0 Q15%,15% 0,0 V100% Q15%,85% 0,100% H100% Z');
+    }

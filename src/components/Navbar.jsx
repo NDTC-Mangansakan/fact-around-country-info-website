@@ -47,7 +47,7 @@ const Navbar = () => {
                 {/* nav for lg and above screens */}
                 <div className="hidden lg:flex items-center gap-x-10">
                     <NavLink to='/' className='text-lg font-semibold'>Home</NavLink>
-                    <NavLink to='/countries' className='text-lg font-semibold'>Countries</NavLink>
+                    <NavLink to='/prac' className='text-lg font-semibold'>Countries</NavLink>
                     <NavLink to='/country-quiz' className='text-lg font-semibold'>Quiz</NavLink>
                     <span className="cursor-pointer" onClick={handleDarkModeToggle}>
                         {isDarkMode ? <RiSunFill /> : <RiMoonFill />}
